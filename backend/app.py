@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+'''from flask import Flask, jsonify
 import mysql.connector
 
 app = Flask(__name__)
@@ -26,11 +26,11 @@ def get_courses():
 
 if __name__ == '__main__':
     print("🟢 Starting Flask server...")
-    app.run(debug=True, port=5000)  # Explicitly set port
+    app.run(debug=True, port=5000)  # Explicitly set port'''
 
 
 
-'''from flask import Flask, jsonify
+from flask import Flask, jsonify
 import mysql.connector
 
 app = Flask(__name__)
@@ -70,4 +70,3 @@ def get_courses():
 if __name__ == '__main__':
     print("🟢 Starting Flask server...")
     app.run(debug=True, port=5000)  # Explicitly set port
-'''
