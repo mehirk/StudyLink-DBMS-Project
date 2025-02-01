@@ -14,8 +14,10 @@
 
    ```bash
    # Windows
-   python -m venv venv // this creates a new virtual enviornment
-   venv\Scripts\activate //this is for activating the venv
+   <!-- this creates a new virtual enviornment -->
+   python -m venv venv
+   <!-- this is for activating the venv -->
+   venv\Scripts\activate
 
    # macOS/Linux
    python -m venv venv 
