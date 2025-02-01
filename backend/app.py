@@ -8,7 +8,7 @@ try:
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="mehir",
+        password="Vaseline@2203",
         database="StudyLink"
     )
     cursor = db.cursor(dictionary=True)
